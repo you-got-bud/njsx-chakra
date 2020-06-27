@@ -1,0 +1,41 @@
+{
+  "name": "njsx-chakra",
+  "version": "1.0.0",
+  "description": "Chakra UI components made available with njsx. My favorite way to write react components ",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsdx build",
+    "start": "tsdx build --watch",
+    "test": "tsdx test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you-got-bud/njsx-chakra.git"
+  },
+  "keywords": [
+    "njsx",
+    "chakra-ui",
+    "fp",
+    "design-systems"
+  ],
+  "author": "brettm12345",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/you-got-bud/njsx-chakra/issues"
+  },
+  "homepage": "https://github.com/you-got-bud/njsx-chakra#readme",
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "fp-ts": "^2.6.6",
+    "fs-extra": "^9.0.1",
+    "njsx": "^3.0.1",
+    "njsx-react": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "*",
+    "@types/react": "^16.9.41",
+    "gulp": "^4.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2018",
+    "module": "ESNext",
+    "lib": ["dom", "ES2016"],
+    "jsx": "preserve",
+    "moduleResolution": "node"
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}
