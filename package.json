@@ -26,7 +26,7 @@
   "homepage": "https://github.com/you-got-bud/njsx-chakra#readme",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
-    "fp-ts": "^2.6.6",
+    "fp-ts": "^2.6.7",
     "fs-extra": "^9.0.1",
     "njsx": "^3.0.1",
     "njsx-react": "^1.0.1"
