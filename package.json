@@ -34,8 +34,10 @@
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
-    "@chakra-ui/system": "^1.0.0-next.3",
-    "njsx": "^3.0.1"
+    "fp-ts": "^2.6.7",
+    "fs-extra": "^9.0.1",
+    "njsx": "^3.0.1",
+    "njsx-react": "^1.0.1"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.28",
