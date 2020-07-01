@@ -1,29 +1,37 @@
 {
-  "name": "njsx-chakra",
+  "name": "@you-got-bud/njsx-chakra",
   "version": "1.0.0",
-  "description": "Chakra UI components made available with njsx. My favorite way to write react components ",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsdx build",
-    "start": "tsdx build --watch",
-    "test": "tsdx test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/you-got-bud/njsx-chakra.git"
-  },
+  "description": "Chakra UI components made available with njsx",
   "keywords": [
     "njsx",
     "chakra-ui",
     "fp",
     "design-systems"
   ],
-  "author": "brettm12345",
-  "license": "ISC",
+  "homepage": "https://github.com/you-got-bud/njsx-chakra#readme",
   "bugs": {
     "url": "https://github.com/you-got-bud/njsx-chakra/issues"
   },
-  "homepage": "https://github.com/you-got-bud/njsx-chakra#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you-got-bud/njsx-chakra.git"
+  },
+  "license": "ISC",
+  "author": "brettm12345",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsdx build",
+    "start": "tsdx build --watch",
+    "test": "tsdx test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "extends": "@you-got-bud/prettier-config"
+  },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "fp-ts": "^2.6.7",
@@ -32,10 +40,33 @@
     "njsx-react": "^1.0.1"
   },
   "devDependencies": {
-    "@types/fs-extra": "*",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@types/body-scroll-lock": "^2.6.1",
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/parse-json": "^4.0.0",
+    "@types/prop-types": "^15.7.3",
     "@types/react": "^16.9.41",
-    "gulp": "^4.0.2",
-    "ts-node": "^8.10.2",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-system": "^5.1.9",
+    "@types/warning": "^3.0.0",
+    "@you-got-bud/prettier-config": "^1.0.0",
+    "emotion-theming": "^10.0.27",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sort-package-json": "^1.44.0",
     "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "emotion-theming": "^10.0.27",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

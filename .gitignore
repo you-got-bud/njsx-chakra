@@ -1,1 +1,4 @@
-/target
+logs
+*.log
+dist/
+node_modules/
