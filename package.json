@@ -18,6 +18,8 @@
   },
   "license": "ISC",
   "author": "brettm12345",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
