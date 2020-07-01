@@ -1,6 +1,6 @@
 {
   "name": "@you-got-bud/njsx-chakra",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chakra UI components made available with njsx",
   "keywords": [
     "njsx",
@@ -19,6 +19,7 @@
   "license": "ISC",
   "author": "brettm12345",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsdx build",
     "start": "tsdx build --watch",
@@ -32,6 +33,7 @@
   "prettier": "@you-got-bud/prettier-config",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/system": "^1.0.0-next.3",
     "fp-ts": "^2.6.7",
     "fs-extra": "^9.0.1",
     "njsx": "^3.0.1",
