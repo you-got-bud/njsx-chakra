@@ -19,7 +19,7 @@
   "license": "ISC",
   "author": "brettm12345",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsdx build",
     "start": "tsdx build --watch",
