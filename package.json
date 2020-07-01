@@ -1,6 +1,6 @@
 {
   "name": "@you-got-bud/njsx-chakra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chakra UI components made available with njsx",
   "keywords": [
     "njsx",
@@ -29,9 +29,7 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "prettier": {
-    "extends": "@you-got-bud/prettier-config"
-  },
+  "prettier": "@you-got-bud/prettier-config",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "fp-ts": "^2.6.7",
