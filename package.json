@@ -43,7 +43,7 @@
     "njsx-react": "^1.0.1"
   },
   "devDependencies": {
-    "@emotion/core": "^10.0.28",
+    "@emotion/core": "^10.0.34",
     "@emotion/styled": "^10.0.27",
     "@types/body-scroll-lock": "^2.6.1",
     "@types/hoist-non-react-statics": "^3.3.1",
@@ -65,7 +65,7 @@
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
-    "@emotion/core": "^10.0.28",
+    "@emotion/core": "^10.0.34",
     "@emotion/styled": "^10.0.27",
     "emotion-theming": "^10.0.27",
     "prop-types": "^15.7.2",
