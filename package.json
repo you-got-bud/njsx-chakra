@@ -55,7 +55,7 @@
     "@types/warning": "^3.0.0",
     "@you-got-bud/prettier-config": "^1.0.0",
     "emotion-theming": "^10.0.27",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "prop-types": "^15.7.2",
