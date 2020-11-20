@@ -61,7 +61,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sort-package-json": "^1.44.0",
+    "sort-package-json": "^1.47.0",
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
